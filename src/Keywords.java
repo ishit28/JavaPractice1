@@ -12,7 +12,6 @@ public class Keywords {
         // catch
         // char
         // class
-        // const
         // continue
         // default
         // double
@@ -57,7 +56,6 @@ public class Keywords {
         // volatile
         // while
 
-        // for e.g. for loop
         for(int i=0;i<10;i++){
             System.out.println("This is example for reserved keyword");
         }
