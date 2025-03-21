@@ -19,16 +19,6 @@ public class Operators {
         Question:
         Write a Java program to take two numbers as input and perform all arithmetic operations (+, -, *, /, %). Print the results.
         */
-        System.out.println("Arithmetic Operators (+, -, , /, %)");
-        System.out.println("Enter First Number");
-        int first =sc.nextInt();
-        System.out.println("Enter Second Number");
-        int second =sc.nextInt();
-        System.out.println("First no + Second no = " + (first + second));
-        System.out.println("First no - Second no = " + (first - second));
-        System.out.println("First no * Second no = " + (first * second));
-        System.out.println("First no / Second no = " + (first / second));
-        System.out.println("First no % Second no = " + (first % second));
        /*
         2. Relational Operators (>, <, >=, <=, ==, !=)
         Question:
@@ -40,11 +30,6 @@ public class Operators {
                 Print appropriate messages for each comparison.
        */
 
-        System.out.println("Relational Operators (>, <, >=, <=, ==, !=)");
-        System.out.println("The first number is greater than the second." + (first > second));
-        System.out.println(" The first number is less than the second."+ (first < second));
-        System.out.println("  The two numbers are equal."+ (first == second));
-        System.out.println("=="+ (first != second));
         /*
         3. Logical Operators (&&, ||, !)
         Question:
@@ -53,11 +38,6 @@ public class Operators {
 
         */
 
-        System.out.println("Enter a number to check number is  between 10 and 50");
-        int number = sc.nextInt();
-        if (number >= 10 && number <= 50 ){
-            System.out.println("Number is between 10 and 50  " +  number);
-        }
 
 
 
@@ -88,24 +68,5 @@ public class Operators {
         Print values before and after using these operators.
 
         */
-
-        System.out.println("Initial value of x: " + x);
-
-        // Post-Increment (x++)
-        System.out.println("Post-Increment (x++): " + (x++)); // Prints x, then increments
-        System.out.println("Value after Post-Increment: " + x);
-
-        // Pre-Increment (++x)
-        System.out.println("Pre-Increment (++x): " + (++x)); // Increments first, then prints
-
-        // Post-Decrement (x--)
-        System.out.println("Post-Decrement (x--): " + (x--)); // Prints x, then decrements
-        System.out.println("Value after Post-Decrement: " + x);
-
-        // Pre-Decrement (--x)
-        System.out.println("Pre-Decrement (--x): " + (--x)); // Decrements first, then prints
-
-
-
     }
 }
